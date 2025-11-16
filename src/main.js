@@ -1,7 +1,14 @@
-const getId = function(id) {
-  return document.getElementById(id);
+const $ = function (id) {
+    return document.getElementById(id);
 }
 
-getId('yorke').onclick = function () {
-  console.log('york\'d it.');
+$("guessButton").onclick = function () {
+    const guessField = $("guessField");
+    let guess = String(guessField.value);
+    console.log(guess)
+    guessField.value = "";
+}
+
+$("hintButton").onclick = function () {
+
 }

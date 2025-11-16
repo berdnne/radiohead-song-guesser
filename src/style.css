@@ -1,3 +1,40 @@
-#yorke {
-    color: red;
+html {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #1e1f24;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #181a1d;
+    color: #3c4247;
+    text-align: center;
+    align-content: center;
+}
+
+a:link {
+    color: #3c4247;
+}
+
+a:visited {
+    color: #3c4247;
+}
+
+div {
+    text-align: center;
+}
+
+#albumCover {
+    min-width: 100px;
+    min-height: 100px;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
 }
